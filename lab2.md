@@ -5,7 +5,7 @@
 ## Test1
 <img width="959" alt="image" src="https://github.com/VincentHuynh1016/CSE15L-Lab-Report-2/assets/114731503/ba135698-aedc-468b-bb5b-45376a46a92d">
 
-Which methods in your code are called?
+**Which methods in your code are called?**
 - handleRequeset(URI url) is called to handle the request
 - url.getPath() is called to get the path of the URL
 - url.getQuery() is called to extract the query part of the URL
@@ -13,7 +13,7 @@ Which methods in your code are called?
 - messages.append(...) is called to add the message to the messages StringBuilder
 - messages.toString() is called to return the updated content as the response
 
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 - handleRequest(URI url):
   - Argument = URI url, represents the URL of the request
   - Values of Relevant Field: messages and sequence
@@ -35,15 +35,15 @@ What are the relevant arguments to those methods, and the values of any relevant
   - No Arguments: operates on the `messages` StringBuilder
   - Returns the content of the `messages` StringBuilder as a string
 
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-- Sequence field:
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+- `sequence` field:
   - Initially the `sequence` field has a value of 1
   - After processing the request, the `sequence` field is incremented by 1 to 2
  
 ## Test 2
 <img width="960" alt="image" src="https://github.com/VincentHuynh1016/CSE15L-Lab-Report-2/assets/114731503/86face76-759d-47ed-a47f-2f07d0ed894c">
 
-Which methods in your code are called?
+**Which methods in your code are called?**
 - handleRequeset(URI url) is called to handle the request
 - url.getPath() is called to get the path of the URL
 - url.getQuery() is called to extract the query part of the URL
@@ -51,7 +51,7 @@ Which methods in your code are called?
 - messages.append(...) is called to add the message to the messages StringBuilder
 - messages.toString() is called to return the updated content as the response
 
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 - handleRequest(URI url):
   - Argument = URI url, represents the URL of the request: /add-message?s=How are you
   - Values of Relevant Field: messages: contains the previous message "1.Hello/n" and sequence: value of 2 from previous request
@@ -73,7 +73,7 @@ What are the relevant arguments to those methods, and the values of any relevant
   - No Arguments: Operates on the `messages` StringBuilder
   - Returns the updated content of the `messages` StringBuilder, which now contains both previous messages `1.Hello/n` and the new message `2.How are you/n`.
 
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 -`sequence` field:
   - Initially the `sequence` field had a vlaue of 2 (from the pervious request)
   - After the new request, the `sequence` field is incremented and is now 3. 
