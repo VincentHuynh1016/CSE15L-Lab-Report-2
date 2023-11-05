@@ -6,7 +6,7 @@
 <img width="959" alt="image" src="https://github.com/VincentHuynh1016/CSE15L-Lab-Report-2/assets/114731503/ba135698-aedc-468b-bb5b-45376a46a92d">
 
 **Which methods in your code are called?**
-- `handleRequeset(URI url)` is called to handle the request
+- `handleRequest(URI url)` is called to handle the request
 - `url.getPath()` is called to get the path of the URL
 - `url.getQuery()` is called to extract the query part of the URL
 - `split("=")` is called to split the query parameters
@@ -44,7 +44,7 @@
 <img width="960" alt="image" src="https://github.com/VincentHuynh1016/CSE15L-Lab-Report-2/assets/114731503/86face76-759d-47ed-a47f-2f07d0ed894c">
 
 **Which methods in your code are called?**
-- `handleRequeset(URI url)` is called to handle the request
+- `handleRequest(URI url)` is called to handle the request
 - `url.getPath()` is called to get the path of the URL
 - `url.getQuery()` is called to extract the query part of the URL
 - `split("=")` is called to split the query parameters
